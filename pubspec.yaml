@@ -1,0 +1,35 @@
+name: to_do_app_sharedpreferences
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  simple_animations: ^5.0.2
+ 
+  get: ^4.6.6
+  enefty_icons: ^1.0.7
+  shared_preferences: ^2.2.2
+  intl: ^0.17.0
+  uuid: ^3.0.1
+  flutter_slidable: ^3.0.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+
+    - family : Note
+      fonts:
+        - asset: assets/fonts/note.ttf
